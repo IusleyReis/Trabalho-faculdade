@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EBE3D5;
+}
+
+.cabecalho__menu {
+    display: flex;
+}
+
+.cabecalho__menu__anhanguera{
+    width: 30%;
+}
+
+.cabecalho__menu__esfera{
+    width: 80px;
+    height: 60px;
+    margin-left: auto;
+}
+
+
+.conteudo__filho h1 {
+    text-align: center; /* Alinha o texto ao centro */
+    margin: 125px auto; /* Define margens superior e inferior de 20px e margens laterais automáticas para centralizar */
+    width: 70%; /* Define a largura máxima para evitar que o texto se estenda muito na tela */
+    margin-top: 0; /* Remova a margem superior para centralizar verticalmente */
+}
+
+
+.conteudo__filho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.rodape {
+    color:#F3EEEA;
+    background-color:#776B5D;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rodape__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape__links {
+    display: flex;
+    gap: 30px; 
+}
+
+.rodape__instagram,
+.rodape__linkedin {
+    width: 30px;
+    height: auto;
+}
+
+.referencias {
+    font-size: 30px;
+    text-decoration: none; 
+    padding: 10px 20px;
+    color:white;
+    background-color: #776B5D; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+.referencias:hover {
+    background-color: #ccc;
+}
+
+@media only screen and (max-width: 450px) {
+    .cabecalho__menu__anhanguera {
+        width: 150px; 
+    }
+
+    .cabecalho__menu__esfera{
+        width: 60px;
+        height: 40px;
+    }
+
+    .rodape__links{
+        gap: 26px;
+    }
+
+    .rodape__linkedin,
+    .rodape__instagram {
+        width: 30px; 
+    }
+
+    .rodape__linkedin {
+        padding-right: 40px;
+    }
+
+
+    .conteudo__filho {
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .referencias {
+            font-size: 20px; /* Reduz o tamanho da fonte */
+            padding: 8px 16px; /* Reduz o padding */
+        }
+    }

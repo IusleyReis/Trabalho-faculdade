@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho__menu {
+    display: flex;
+}
+
+.cabecalho__menu__anhanguera{
+    width: 30%;
+}
+
+.cabecalho__menu__esfera{
+    width: 80px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.imagemfoda {
+    width: 40%;
+    height: auto;
+    margin-left: 430px;
+}
+
+body {
+    background-color: #EBE3D5;
+}
+
+.conteudo__filho__aviso {
+    margin-left: 39%;
+    color: #9E7676;
+}
+
+.conteudo__filho__aviso__texto {
+    text-align: center;
+    padding: 2%;
+}
+
+.conteudo__filho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.conteudo__filho__mensagem1,
+.conteudo__filho__mensagem2,
+.conteudo__filho__mensagem3,
+.conteudo__filho__mensagem4 {
+    margin-bottom: 30px;
+    color: #867070;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.conteudo__filho__titulo1,
+.conteudo__filho__titulo2,
+.conteudo__filho__titulo3,
+.conteudo__filho__titulo4 {
+    color: #776B5D;
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+.conteudo__filho__titulo1{
+    padding-top: 30px;
+}
+
+.referencias {
+    font-size: 30px;
+    text-decoration: none; 
+    padding: 10px 20px;
+    color:white;
+    background-color: #776B5D; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+.referencias:hover {
+    background-color: #867070;
+}
+
+.rodape {
+    color:#F3EEEA;
+    background-color:#776B5D;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rodape__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape__links {
+    display: flex;
+    gap: 30px; 
+}
+
+.rodape__instagram,
+.rodape__linkedin {
+    width: 30px; 
+    height: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .cabecalho__menu__anhanguera {
+        width: 150px; 
+    }
+
+    .cabecalho__menu__esfera{
+        width: 60px;
+        height: 40px;
+    }
+
+    .rodape__links{
+        gap: 26px;
+    }
+
+    .rodape__linkedin,
+    .rodape__instagram {
+        width: 30px; 
+    }
+
+    .rodape__linkedin {
+        padding-right: 40px;
+    }
+    .conteudo__filho__aviso{
+      padding-top: 50px;
+      margin-left: 65px;
+    }
+    .conteudo__filho__aviso__texto{
+        padding-top: 40px;
+    }
+    .imagemfoda {
+        padding-top: 29px;
+        margin-left:30px;
+        width: 350px;
+    }
+
+    .conteudo__filho {
+        margin-left: 5%;
+    }
+    .referencias {
+        font-size: 20px;
+        padding: 8px 16px; 
+    }
+}
